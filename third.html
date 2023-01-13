@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>assessment1</title>
+        <script>
+            function display()
+            {
+                var a=parseInt(document.getElementsById('id1').value);
+                var b=parseint(document.getElementsById('id2').value);
+                alert("hai");
+                alert("hello");
+            }
+        </script>
+        <style>
+
+            div{
+                border: 2px solid rgb(211, 215, 230);
+                margin-top: 40px;
+                margin-right: 400px;
+                margin-left:450px ;
+                border-radius: 10px;
+                height: 330px;
+                width: 600px;
+                box-shadow: 0 0 5px 5px lightgray;
+            }
+            h1{
+                margin-left: 50px;
+                font-family: sans-serif;
+            }
+            h3{ 
+                margin-left: 50px;
+                
+
+            }
+            input[type=Email]
+            {
+                margin-left: 50px;
+                width: 500px;
+                height: 40px;
+                border-radius: 5px;
+            }
+            input[type=password]
+            {
+                margin-left: 50px;
+                width: 500px;
+                height:40px;
+                border-radius: 5px;
+            }
+            input[type=submit]
+            {
+                margin-left: 50px;
+                background-color: blue;
+                color: white;
+                margin-top: 10px;
+                height: 30px;
+                width: 60px;
+                border-radius: 5px;
+                border-color: blue;
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        <div style="background-color:white">
+        <h1>Login page</h1>
+
+        <h3 id="id1">Email</h3>
+        <input type="Email" placeholder="Email"/>
+        <h3 id="id2">password</h3>
+        <input type="Password"placeholder="Password"/>
+        <br><input type="submit" value="Login" onclick="display()"/><br>
+    </div>
+    </body>
+</html>
